@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'me.masterofthefish.regionmobs'
+version '1.0'
+
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+    compileOnly 'com.sk89q.worldguard:worldguard-bukkit:7.0.4'
+    compileOnly 'io.lumine.xikage:MythicMobs:4.11.0-SNAPSHOT'
+}
+
+repositories {
+    maven { url "https://hub.spigotmc.org/nexus/content/repositories/snapshots" }
+    maven { url "https://maven.enginehub.org/repo/" }
+    maven {url "https://mvn.lumine.io/repository/maven-public" }
+    mavenCentral()
+    mavenLocal()
+}

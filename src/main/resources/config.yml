@@ -1,0 +1,18 @@
+# Author: MasterOfTheFish
+
+settings:
+  # How often to teleport mobs
+  timer-interval: 20
+  # Options are CENTER, EDGE (Previous mob loction), or DESPAWN
+  # Case insensitive
+  teleport-setting: CENTER
+worlds:
+  # Example World
+  world:
+    regions:
+      # Example Region
+      testregion:
+        # Example Mythic Mobs
+        mobs:
+          - CustomPig
+          - CustomChicken

@@ -1,0 +1,7 @@
+name: RegionMobs
+main: me.masterofthefish.mobregionlimiter.MobRegionLimiter
+version: 1.0.0
+author: MasterOfTheFish
+depend:
+  - WorldGuard
+  - MythicMobs
